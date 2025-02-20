@@ -1,0 +1,24 @@
+* {
+    font-family: Cambria;
+}
+
+header, footer {
+    background-color: #B3C6D9;
+    height: 400px;
+    width: 25%;
+    padding-top: 100px;
+}
+
+#środkowy {
+    background-color: #E0E9F1;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+table, th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgray;
+}
