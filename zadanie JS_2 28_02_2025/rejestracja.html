@@ -37,30 +37,30 @@
         </section>
         <section id="blok1">
             <p>Imię</p>
-            <input id="imie" type="text" placeholder="Wpisz dane...">
+            <input id="imie" type="text" placeholder="Wpisz dane..." onblur="changeBar()">
             <p>Nazwisko</p>
-            <input id="nazwisko" type="text">
+            <input id="nazwisko" type="text" onblur="changeBar()">
             <p>Data urodzenia</p>
-            <input id="dataUrodzenia" type="date">
+            <input id="dataUrodzenia" type="date" onblur="changeBar()">
         </section>
         <section id="blok2">
             <p>Ulica</p>
-            <input id="ulica" type="text">
+            <input id="ulica" type="text" onblur="changeBar()">
             <p>Numer</p>
-            <input id="numer" type="number">
+            <input id="numer" type="number" onblur="changeBar()">
             <p>Miasto</p>
-            <input id="miasto" type="text">
+            <input id="miasto" type="text" onblur="changeBar()">
         </section>
         <section id="blok3">
             <p>Numer komórkowy</p>
-            <input id="numerTelefonu" type="tel">
+            <input id="numerTelefonu" type="tel" onblur="changeBar()">
             <br>
             <label>
-                <input type="checkbox" id="rodo">
+                <input type="checkbox" id="rodo" onblur="changeBar()">
                 Akceptuję RODO
             </label>
             <br>
-            <button id="zatwierdz">Zatwierdź dane</button>
+            <button id="zatwierdz" onclick="confirm()">Zatwierdź dane</button>
         </section>
     </main>
     <section id="pasek_postepu">
